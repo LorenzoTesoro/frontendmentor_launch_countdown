@@ -16,6 +16,7 @@ body{
     min-height: 100vh;
     font-family: 'Red Hat Text', sans-serif;
     font-weight: 700;
+    background-color: red;
 /*     background-color: var(--clr-dark-blue);
  */
     background-image: linear-gradient(var(--clr-darker), var(--clr-dark-blue));
