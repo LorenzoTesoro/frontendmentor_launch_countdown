@@ -16,9 +16,6 @@ body{
     min-height: 100vh;
     font-family: 'Red Hat Text', sans-serif;
     font-weight: 700;
-    background-color: red;
-/*     background-color: var(--clr-dark-blue);
- */
     background-image: linear-gradient(var(--clr-darker), var(--clr-dark-blue));
 }
 img{
@@ -50,12 +47,12 @@ h1{
 .square{
     width:80px;
     aspect-ratio: 1;
-    /* background-color: var(--clr-desatured-blue); */
     display: flex;
     flex-direction: column;
     font-size: 2.5rem;
     color: var(--clr-primary-danger);
     position: relative;
+    box-shadow: 0 10px 5px 0px var(--clr-darker);
 }
 
 /* TODO: FIX BORDERS AND COLORS */
@@ -64,8 +61,9 @@ h1{
     width: 100%;
     height: 50%;
     background-color: var(--clr-desatured-blue);
-    border-bottom:0.1px  var(--clr-dark-blue);
+    border-bottom:1px dotted var(--clr-dark-blue);
     border-radius:0.5rem;
+    filter:contrast(110%);
 }
 .square_down{
     width: 100%;
@@ -79,6 +77,14 @@ h1{
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
+}
+
+.square_type{
+    color:var(--clr-primary-grayish);
+    font-size: 0.625rem;
+    text-align: center;
+    padding-top: 1rem;
+    letter-spacing: 0.175rem;
 }
 /* #endregion main */
 
