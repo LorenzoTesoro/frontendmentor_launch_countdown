@@ -28,10 +28,17 @@ img{
 .container{
     max-width: 560px;
 }
+.container.controls{
+    display: flex;
+    padding-top: 2rem;
+    justify-content: center;
+    gap: 1rem;
+}
 main{
     background-image: url('../images/bg-stars.svg');
     min-height: 80vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
