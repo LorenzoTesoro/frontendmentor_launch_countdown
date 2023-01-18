@@ -107,7 +107,19 @@ footer .container{
     justify-content: center;
     gap:2rem;
 }
+footer i{
+    color:var(--clr-primary-grayish);
+    font-size: 2rem;
+}
 /* #endregion footer */
+
+
+/* hover effects */
+
+footer i:hover{
+    cursor: pointer;
+    color: var(--clr-primary-danger);
+}
 
 
 /* Responsive */
